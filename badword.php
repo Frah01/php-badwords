@@ -1,7 +1,8 @@
 <?php 
 
 $paragrafo = $_POST['paragrafo'];
-$nuovo_paragrafo = str_replace($paragrafo,'***', $paragrafo);
+$password = $_POST ['password'];
+$nuovo_paragrafo = str_replace($password,'***', $paragrafo);
 
 
 ?>
