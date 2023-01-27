@@ -1,7 +1,7 @@
 <?php 
 
 $paragrafo = $_POST['paragrafo'];
-$nuovo_paragrafo = str_replace('Lorem','***', $paragrafo);
+$nuovo_paragrafo = str_replace($paragrafo,'***', $paragrafo);
 
 
 ?>
