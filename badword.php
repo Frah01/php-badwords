@@ -17,12 +17,12 @@ $nuovo_paragrafo = str_replace($password,'***', $paragrafo);
 </head>
 <body>
     <h1>
-        <?php echo $paragrafo ?>
-        <?php echo strlen ($paragrafo) ?>
+        <?php echo $paragrafo."</br>" ?>
+        <?php echo 'il testo è lungo:'.strlen ($paragrafo).' '.'caratteri' ?>
     </h1>
     <h2>
-        <?php echo $nuovo_paragrafo ?>
-        <?php echo strlen ($nuovo_paragrafo) ?>
+        <?php echo $nuovo_paragrafo."</br>" ?>
+        <?php echo 'il testo è lungo:'.strlen($nuovo_paragrafo).' '.'caratteri' ?>
     </h2>
         
     
